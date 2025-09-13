@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --pinkcute: #FFB6D0;
+  --accentpink: #FF6FA3;
+  --cream: #FFF1E6;
+  --darktext: #33272A;
+}
+
+body {
+  background: linear-gradient(180deg,var(--cream), #FFF8F9);
+  color: var(--darktext);
+  font-family: Vazirmatn, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Cute utilities */
+.card { @apply rounded-2xl p-4 shadow-sm bg-white/70; }
+.btn-primary { @apply px-4 py-2 rounded-full font-semibold bg-accentpink text-white; }
+
+.bg-pattern {
+  background-image: radial-gradient(#ffe6f0 1px, transparent 1px);
+  background-size: 20px 20px;
+}

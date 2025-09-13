@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <rect width="100%" height="100%" rx="20" fill="#FFF1E6"/>
+  <rect x="80" y="120" width="240" height="160" rx="20" fill="#FFB6D0"/>
+  <text x="200" y="200" font-size="28" text-anchor="middle" fill="#fff" font-family="sans-serif">Eraser</text>
+</svg>
